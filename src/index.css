@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  text-decoration: none;
+
+}
+
+.default {
+  border-radius: 12px;
+  border: 1px solid #5D4789;
+  padding: 10px 10px 10px 10px ;
+  -webkit-text-fill-color: white;
+}
+
+.primary {
+  border-radius: 12px;
+  background: #5D4789;
+  padding: 10px 10px 10px 10px ;
+  -webkit-text-fill-color: white;
+}
+
+.primary:hover{
+  background-color: #926fd8;
+}
+.default:hover{
+  background-color: #5D4789;
+}
