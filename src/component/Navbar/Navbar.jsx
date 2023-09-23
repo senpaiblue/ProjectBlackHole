@@ -6,7 +6,10 @@ import logo from "../../assets/logo.png"
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <Link to="/" src={logo} alt="BlackHole">BlackHole</Link>
+      <div className='logoside'>
+        <img rc={logo} alt="Logo" />
+        <Link to="/" >BlackHole</Link>
+      </div>
       <ul className='navcomp'>
         <li>
           <Link to="/Product">Product</Link>

@@ -4,6 +4,8 @@
 }
 
 .navbar {
+  z-index: 50;
+  position: relative;
   display: flex;
   background-color: #030014;
   width: 100%;
@@ -26,9 +28,14 @@
   background: rgba(255, 255, 255, 0.02);
   align-items: center;
   justify-content: space-evenly;
+  -webkit-text-fill-color: #5D4789;
 }
 .CTA{
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.logoside{
+  display: flex;
+  gap: -20px;
 }
