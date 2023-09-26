@@ -1,16 +1,16 @@
 import React from 'react'
 import "./Hero.css"
-import purplehole from "../../assets/purplehole.png"
+import BH3 from "../../assets/BH3.mp4"
 
 const Hero = () => {
   console.log('Hero component rendered')
   return (
     <div className='MainContainer'>
-      <img className="Hole" src={purplehole} alt='Purple Hole' />
-      <div className='sub'>
-        <h5 className='integration'>New:Our AI Integration just landed</h5>
+      <video className="Hole" src={BH3} type='video/mp4' controls />
         <h1 className="think">Be Ready To Be Absorbe Init</h1>
+      <div className='sub'>
         <h3 className='small'>Never miss a note,idea or connection </h3>
+        <h5 className='integration'>New:Our AI Integration just landed</h5>
       </div>
     </div>
   )

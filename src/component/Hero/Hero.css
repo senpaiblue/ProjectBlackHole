@@ -15,30 +15,35 @@
   z-index: 20;
   position: relative;
   color:white;
-  background-color: blueviolet;
+  background: linear-gradient(270deg, #3F3D56 0.03%, #000 100.58%);
   padding: 20px 15px 15px 20px;
-  border-radius: 32px;
+  border-radius: 8px;
   box-shadow: 0px -7px 11px 0px rgba(164, 143, 255, 0.12) inset;
 
 }
 .sub{
-  top: 20px;
-  position: relative;
+  z-index: 120;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  gap: 16px;
+  width: 100%;
 }
 .Hole{
-  max-width: 100%;
   top: 0;
   z-index: 10;
   position: absolute;
   width: 100%;
 }
 .think{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 30;
-  color:blueviolet;
+  color:rgb(127, 84, 168);
   position: relative;
   -webkit-text-size-adjust: 32px;
 }

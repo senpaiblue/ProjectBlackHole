@@ -13,14 +13,16 @@
 
 .primary {
   border-radius: 12px;
-  background: #5D4789;
+  background: linear-gradient(270deg, #3F3D56 0.03%, #000 100.58%);
   padding: 10px 10px 10px 10px ;
   -webkit-text-fill-color: white;
 }
 
 .primary:hover{
-  background-color: #926fd8;
+  background: linear-gradient(270deg, #676487 0.03%, rgba(0, 0, 0, 0.50) 100.58%);
+  ;
 }
 .default:hover{
-  background-color: #5D4789;
+  background: linear-gradient(270deg, #676487 0.03%, rgba(0, 0, 0, 0.50) 100.58%);
+  ;
 }

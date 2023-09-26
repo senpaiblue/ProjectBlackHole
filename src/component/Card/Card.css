@@ -1,0 +1,59 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.CardContainer {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  z-index: 100;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 458px);
+  /* Three columns in each row */
+  grid-template-rows: repeat(2, 534px);
+  /* Two rows */
+  /* gap: 200px; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 8px;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #2E2E2E;
+  background: linear-gradient(180deg, #19161C 0%, rgba(19, 19, 19, 0.00) 100%);
+  padding: 20px;
+  /* Card padding */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Card shadow */
+}
+
+.card:hover {
+
+  width: 546px;
+  height: 470px;
+  background: linear-gradient(180deg, #19161C 0%, rgba(19, 19, 19, 0.00) 100%);
+  box-shadow: 0px 4px 12px 5px #FFF;
+}
+
+/* Optionally, you can style other card elements (e.g., title, description) */
+.CardHeading {
+  width: 100%;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.LadyImage {
+  width: 523px;
+  height: 302px;
+}
